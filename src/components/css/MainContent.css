@@ -1,0 +1,105 @@
+    ul {
+      padding: 0;
+    }
+    li {
+        list-style-type: none;
+        text-align: left;
+    }
+    .day-in-week {
+        margin-bottom: 0px;
+
+    }
+    .day-in-week li {
+      width: 97px;
+      height: 46px;
+      margin-left: -1px;
+      padding: 6px 15px 10px 15px;
+    }
+
+    li:first-child {
+      border-top-left-radius: 3px;
+    }
+
+    li:nth-child(8) {
+      border-top-right-radius: 3px;
+    }
+
+    .day {
+      display: block;
+      color: #666;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    li span {
+      font-size: 12px;
+      font-weight: 600;
+      display: block;
+      margin-top: -5px;
+    }
+
+    .total {
+      width: 130px;
+      font-size: 14px;
+      line-height: 30px;
+      text-align: center;
+      color: #888;
+    }
+
+    .total span {
+      display: inline;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .entry-container {
+        padding: 15px;
+        border-bottom: 1px solid #ccc;
+    }
+    .entry-name {
+        font-weight: 600;
+        font-size: 15px;
+        margin-bottom: 6px;
+    }
+    .entry-content {
+        font-weight: 600;
+        font-size: 13px;
+        color: #888;
+    }
+    .entry-time {
+        height: 47px;
+        line-height: 47px;
+        font-size: 22px;
+        font-weight: 600;
+        color: #555;
+        margin-right: 10px;
+    }
+    .entry-btn {
+        margin: 5px 10px;
+        height: 37px;
+        line-height: 17px;
+        padding: 10px;
+        border-radius: 3px;
+        color: #555;
+        font-weight: 600;
+    }
+    .edit-entry {
+      margin: 8px 10px;
+      height: 31px;
+      line-height: 11px;
+      padding: 8px 10px 12px 10px;
+      border-radius: 3px;
+      color: #555;
+      font-weight: 600;
+    }
+    .day-view-summary {
+        padding: 15px 177px 0 0;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: right;
+        color: #888;
+    }
+    .day-view-summary span {
+        font-size: 22px;
+        color: #555;
+        margin-left: 50px;
+    }
