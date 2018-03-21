@@ -22,9 +22,9 @@ export default {
     }
     .sub-navigation a {
         float: left;
-        padding: 12px;
+        padding: 10px;
         color: #666;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 600;
     }
     .sub-navigation a:first-child {

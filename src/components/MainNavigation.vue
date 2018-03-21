@@ -35,13 +35,17 @@ export default {
     .main-navigation a {
         float: left;
         height: 100%;
-        padding: 15px 12px;
+        padding: 12px;
         color: white;
         font-family: 'Raleway', sans-serif;
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 600;
+        letter-spacing: 1px;
     }
-    .main-navigation a:nth-child(1) {
+    .main-navigation a:hover {
+        background: rgba(255, 255, 255, 0.2);
+    }
+    .main-navigation a:nth-child(3) {
         background: rgba(255, 255, 255, 0.2);
     }
 </style>

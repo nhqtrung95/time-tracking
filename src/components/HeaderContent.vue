@@ -33,14 +33,15 @@ export default {
         margin-bottom: 20px;
     }
     .day-view h4 {
-        font-weight: 600;
+        font-weight: 700;
     }
     .status {
         display: inline-block;
         font-size: 11px;
-        padding: 6px 10px;
+        padding: 3px 10px;
         background: #a0a0a0;
         color: white;
+        margin-top: 5px;
         border-radius: 4px;
         font-weight: 600;
         display: inline-block;
