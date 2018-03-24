@@ -6,12 +6,12 @@
         </div>
         <div class="day-view fl-right">
             <div class="day-block fl-left">
-            <div class="btn-toggle btn-back radius-left fl-left"></div>
+            <div class="btn-toggle pd-v-7 radius-left fl-left"><i class="fas fa-arrow-left"></i></div>
             <div class="btn-toggle today btn-selected fl-left">Today</div>
-            <div class="btn-toggle btn-next radius-right fl-left"></div>
+            <div class="btn-toggle pd-v-7 radius-right fl-left"><i class="fas fa-arrow-right"></i></div>
             </div>
             <div class="day-block fl-left">
-            <div class="btn-toggle calendar fl-left"></div>
+            <div class="btn-toggle calendar pd-v-7 fl-left"><i class="far fa-calendar-alt"></i></div>
             </div>
             <div class="day-block fl-left">
                 <div class="btn-toggle btn-switch radius-left btn-selected fl-left">Day</div>
@@ -67,6 +67,9 @@ export default {
         line-height: 15px;
         margin: 0 -1px;
     }
+    .pd-v-7 {
+        padding: 7px 0;
+    }
     .radius-left {
         border-top-left-radius: 3px;
         border-bottom-left-radius: 3px;
@@ -75,19 +78,8 @@ export default {
         border-top-right-radius: 3px;
         border-bottom-right-radius: 3px;
     }
-    .btn-back {
-        background: url(https://cache.harvestapp.com/assets/3kings/icon-arrow-left-a965e7fe97d11337936210d25a2d50f3352d1635e143b6b00ddbeac6b8c15fe1.svg) center no-repeat, linear-gradient(#fff, #eee);
-        opacity: 0.6;
-    }
-    .btn-next {
-        background: url(https://cache.harvestapp.com/assets/3kings/icon-arrow-right-0e6405464566985326afde558c25b16f059e0eefb0ea7354a4e14f2a92c09cfe.svg) center no-repeat, linear-gradient(#fff, #eee);
-        opacity: 0.6;
-    }
     .calendar {
-        width: 40px;
         border-radius: 3px;
-        background: url(https://cache.harvestapp.com/assets/3kings/icon-calendar-4723bb6971d6a126250fe3b3857028317083fefc2d3d16798602de0b1b9da413.svg) center no-repeat, linear-gradient(#fff, #eee);;
-        opacity: 0.6;
     }
     .btn-switch {
         width: 60px;
